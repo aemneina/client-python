@@ -88,7 +88,7 @@ From the spec
 To perform the `setpodsecuritypolicytemplate` action on a project object these are the steps.
 
 ```python
-project = api_client.create_project(name="test-project" clusterId="local")
+project = api_client.create_project(name="test-project", clusterId="local")
 project.setpodsecuritypolicytemplate(podSecurityPolicyTemplateId="my-pspt")
 
 ```
